@@ -1,5 +1,5 @@
 ---
-- name: Check swiagemtd.service on managed nodes
+- name: Check {{ service_name }} on managed nodes
   hosts: '*'
   become: false
   vars: 
