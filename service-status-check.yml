@@ -3,7 +3,7 @@
   hosts: '*'
   become: false
   vars: 
-    service_name: swiagemtd.service
+    service_name: swiagentd.service
 
   tasks:
     - name: Check if {{ service_name}} is active
